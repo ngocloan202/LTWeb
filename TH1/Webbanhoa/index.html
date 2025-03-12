@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoa Tươi Long Xuyên</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f5e5;
+      }
+      .container {
+        width: 900px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 10px;
+      }
+      .header {
+        background: url("images/banner-hoa.jpg") no-repeat center;
+        height: 200px;
+      }
+      .menu {
+        background: #2e8b57;
+        padding: 10px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+      .menu a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        font-weight: bold;
+      }
+      .menu marquee {
+        flex-grow: 1;
+        color: white;
+        font-family: "Times New Roman", serif;
+      }
+      .content {
+        display: flex;
+        margin-top: 10px;
+      }
+      .sidebar {
+        width: 30%;
+        background: #ffffcc;
+        padding: 10px;
+      }
+      .main-content {
+        width: 70%;
+        text-align: center;
+        background: #fcf8dc;
+        padding: 10px;
+      }
+      .flowers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .flowers img {
+        width: 200px;
+        height: auto;
+        border: 2px solid #ccc;
+        padding: 5px;
+      }
+      .footer {
+        background: #4682b4;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"></div>
+
+      <div class="menu">
+        <a href="trangchu.html">Trang Chủ</a>
+        <a href="lienhe.html">Liên Hệ</a>
+        <marquee
+          behavior="scroll"
+          direction="left"
+          scrollamount="3"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+        >
+          Hoa tươi Long Xuyên kính chào quý khách, nhận đặt hoa cưới, sinh nhật,
+          chúc mừng, Chúng tôi đem tận nơi trong nội ô Long Xuyên
+        </marquee>
+      </div>
+
+      <div class="content">
+        <div class="sidebar">
+          <h3>Hoa Tươi Online</h3>
+          <ul>
+            <li>Ý nghĩa các loài hoa</li>
+            <li>Hoa Cưới</li>
+            <li>Hoa Chúc Mừng</li>
+            <li>Hoa Tình Yêu</li>
+            <li><a href="videoHoa.html">Video các loài hoa</a></li>
+          </ul>
+          <h3>Hỗ Trợ Khách Hàng</h3>
+          <ul>
+            <li>Đăng nhập</li>
+            <li><a href="dangKy.html">Đăng ký</a></li>
+            <li>Góp ý</li>
+          </ul>
+          <h3>Giải Trí</h3>
+          <ul>
+            <li>Xem hài</li>
+            <li>Xem bói</li>
+            <li>Chơi game</li>
+          </ul>
+        </div>
+        <div class="main-content">
+          <h2>Hoa Tươi Hôm Nay</h2>
+          <div class="flowers">
+            <div>
+              <img src="images/hoa6.jpg" alt="Hoa Tulip" />
+              <p>Hoa Tulip</p>
+            </div>
+            <div>
+              <img src="images/hoa3.jpg" alt="Hoa Hồng" />
+              <p>Hoa Hồng</p>
+            </div>
+            <div>
+              <img src="images/hoa9.jpg" alt="Hoa Ly" />
+              <p>Hoa Ly</p>
+            </div>
+            <div>
+              <img src="images/hoa7.jpg" alt="Hoa Cúc" />
+              <p>Hoa Cúc</p>
+            </div>
+          </div>
+          <p><a href="#">Xem thêm</a></p>
+        </div>
+      </div>
+
+      <div class="footer">
+        Bản quyền © Công Ty Hoa Tươi Long Xuyên - Email:
+        hoatuoilonxuyen@gmail.com
+      </div>
+    </div>
+  </body>
+</html>
