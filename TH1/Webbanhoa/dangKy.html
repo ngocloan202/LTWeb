@@ -17,11 +17,13 @@
       </tr>
 
       <tr height="20" bgcolor="#2e8b57">
-        <td>
-          <a href="trangchu.html" style="margin-right: 20px">Trang chủ</a> Liên
-          hệ
+        <td style="color: white">
+          <a href="trangchu.html" style="margin-right: 20px; color: white"
+            >Trang chủ</a
+          >
+          Liên hệ
         </td>
-        <td colspan="2">
+        <td colspan="2" style="color: white">
           <marquee
             behavior="scroll"
             direction="left"
@@ -79,46 +81,99 @@
         <td width="56%">
           <table border="0" width="100%">
             <tr align="center">
-              <td colspan="2"><img src="images/hoa9.jpg" alt="" /></td>
+              <td colspan="2"><b>THÔNG TIN ĐĂNG KÝ</b></td>
             </tr>
             <tr align="center">
-              <td colspan="2"><b>Hoa Tươi Hôm Nay</b></td>
+              <td>Họ và tên:</td>
+              <td><input type="text" width="30" /></td>
             </tr>
             <tr align="center">
-              <td><img src="images/hoa6.jpg" alt="Hoa Tulip" /></td>
-              <td><img src="images/hoa3.jpg" alt="Hoa Hồng" /></td>
-            </tr>
-            <tr align="center">
-              <td>Hoa Tulip</td>
-              <td>Hoa Hồng</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <hr
-                  style="
-                    border: none;
-                    height: 3px;
-                    background-color: blue;
-                    margin: 15px 4;
-                    width: 30%;
-                  "
-                />
+              <td colspan="1">Ngày sinh:</td>
+              <td colspan="1">
+                <select name="ngay" id="">
+                  <script>
+                    for (var i = 1; i <= 31; i++) {
+                      document.write("<option>" + i + "</option>");
+                    }
+                  </script>
+                </select>
+                <select name="thang" id="">
+                  <script>
+                    for (var i = 1; i <= 12; i++) {
+                      document.write("<option>" + i + "</option>");
+                    }
+                  </script>
+                </select>
+                <select name="nam" id="">
+                  <script>
+                    for (var i = 1900; i <= 2021; i++) {
+                      document.write("<option>" + i + "</option>");
+                    }
+                  </script>
+                </select>
               </td>
             </tr>
             <tr align="center">
-              <td><img src="images/hoa2.jpg" alt="Hoa Ly" /></td>
-              <td><img src="images/hoa7.jpg" alt="Hoa Cúc" /></td>
+              <td>Giới tính</td>
+              <td colspan="2">
+                <input type="radio" checked />Nam
+                <input type="radio" name="" id="" />Nữ
+              </td>
             </tr>
             <tr align="center">
-              <td>Hoa Ly</td>
-              <td>Hoa Cúc</td>
+              <td colspan="1">Nghề nghiệp:</td>
+              <td colspan="2">
+                <select name="" id="">
+                  <option value="" checked>Chọn</option>
+                  <option value="">Sinh viên</option>
+                  <option value="">Giáo viên</option>
+                  <option value="">Nhân viên văn phòng</option>
+                  <option value="">Khác</option>
+                </select>
+              </td>
+            </tr>
+            <tr align="center">
+              <td>Hoa yêu thích:</td>
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <input type="checkbox"/>Hoa Lan
+                    </td>
+                    <td>
+                      <input type="checkbox" />Hoa hồng
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox"/>Hoa
+                      Tulip
+                    </td>
+                    <td>
+                      <input type="checkbox"/>Hoa Cúc
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox">Hoa Ly</td>
+                    <td><input type="checkbox">Hoa Khác</td>
+                </tr>
+                </table>
+              </td>
+            </tr>
+            <tr align="center">
+              <td>Ghi chú:</td>
+              <td><textarea name="" id=""></textarea></td>
+            </tr>
+            <tr align="center">
+              <td></td>
+              <td><button>Đăng ký</button><button>Xoá làm lại</button></td>
             </tr>
           </table>
         </td>
 
         <!-- Cột phải -->
         <td width="22%" align="center" bgcolor="#FFFFCC">
-          <img src="images/hoa8.jpg" alt="">
+          <img src="images/hoa8.jpg" alt="" />
         </td>
       </tr>
       <tr height="50" bgcolor="#66a3ff">
