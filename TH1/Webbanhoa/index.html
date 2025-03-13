@@ -1,106 +1,50 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hoa Tươi Long Xuyên</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f5e5;
-      }
-      .container {
-        width: 900px;
-        margin: 0 auto;
-        background: #fff;
-        padding: 10px;
-      }
-      .header {
-        background: url("images/banner-hoa.jpg") no-repeat center;
-        height: 200px;
-      }
-      .menu {
-        background: #2e8b57;
-        padding: 10px;
-        text-align: left;
-        display: flex;
-        align-items: center;
-      }
-      .menu a {
-        color: white;
-        text-decoration: none;
-        margin-right: 20px;
-        font-weight: bold;
-      }
-      .menu marquee {
-        flex-grow: 1;
-        color: white;
-        font-family: "Times New Roman", serif;
-      }
-      .content {
-        display: flex;
-        margin-top: 10px;
-      }
-      .sidebar {
-        width: 30%;
-        background: #ffffcc;
-        padding: 10px;
-      }
-      .main-content {
-        width: 70%;
-        text-align: center;
-        background: #fcf8dc;
-        padding: 10px;
-      }
-      .flowers {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-      }
-      .flowers img {
-        width: 200px;
-        height: auto;
-        border: 2px solid #ccc;
-        padding: 5px;
-      }
-      .footer {
-        background: #4682b4;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        margin-top: 10px;
-      }
-    </style>
+    <title>Thế giới hoa</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   </head>
   <body>
-    <div class="container">
-      <div class="header"></div>
+    <table
+      width="900"
+      border="0"
+      align="center"
+      bgcolor="#FFEBCD"
+      cellspacing="0"
+    >
+      <tr height="160" background="images/banner-hoa.jpg">
+        <td colspan="3" align="center" valign="top"></td>
+      </tr>
 
-      <div class="menu">
-        <a href="trangchu.html">Trang Chủ</a>
-        <a href="lienhe.html">Liên Hệ</a>
-        <marquee
-          behavior="scroll"
-          direction="left"
-          scrollamount="3"
-          onmouseover="this.stop()"
-          onmouseout="this.start()"
-        >
-          Hoa tươi Long Xuyên kính chào quý khách, nhận đặt hoa cưới, sinh nhật,
-          chúc mừng, Chúng tôi đem tận nơi trong nội ô Long Xuyên
-        </marquee>
-      </div>
+      <tr height="20" bgcolor="#2e8b57">
+        <td>
+          <a href="trangchu.html" style="margin-right: 20px">Trang chủ</a> Liên
+          hệ
+        </td>
+        <td colspan="2">
+          <marquee
+            behavior="scroll"
+            direction="left"
+            scrollamount="3"
+            onmouseover="this.stop()"
+            onmouseout="this.start()"
+          >
+            Hoa tươi Long Xuyên kính chào quý khách, nhận đặt hoa cưới, sinh
+            nhật, chúc mừng, Chúng tôi đem tận nơi trong nội ô Long Xuyên
+          </marquee>
+        </td>
+      </tr>
 
-      <div class="content">
-        <div class="sidebar">
+      <tr valign="top">
+        <!-- Cột trái -->
+        <td width="22%" bgcolor="#FFFFCC">
           <h3>Hoa Tươi Online</h3>
           <ul>
             <li>Ý nghĩa các loài hoa</li>
             <li>Hoa Cưới</li>
             <li>Hoa Chúc Mừng</li>
             <li>Hoa Tình Yêu</li>
-            <li><a href="videoHoa.html">Video các loài hoa</a></li>
+            <li><a href="videohoa.html">Video các loài hoa</a></li>
           </ul>
           <h3>Hỗ Trợ Khách Hàng</h3>
           <ul>
@@ -114,35 +58,77 @@
             <li>Xem bói</li>
             <li>Chơi game</li>
           </ul>
-        </div>
-        <div class="main-content">
-          <h2>Hoa Tươi Hôm Nay</h2>
-          <div class="flowers">
-            <div>
-              <img src="images/hoa6.jpg" alt="Hoa Tulip" />
-              <p>Hoa Tulip</p>
-            </div>
-            <div>
-              <img src="images/hoa3.jpg" alt="Hoa Hồng" />
-              <p>Hoa Hồng</p>
-            </div>
-            <div>
-              <img src="images/hoa9.jpg" alt="Hoa Ly" />
-              <p>Hoa Ly</p>
-            </div>
-            <div>
-              <img src="images/hoa7.jpg" alt="Hoa Cúc" />
-              <p>Hoa Cúc</p>
-            </div>
-          </div>
-          <p><a href="#">Xem thêm</a></p>
-        </div>
-      </div>
+          <br />
+          <iframe
+            scrolling="no"
+            frameborder="no"
+            clocktype="html5"
+            style="
+              overflow: hidden;
+              border: 0;
+              margin: 0;
+              padding: 0;
+              width: 180px;
+              height: 150px;
+            "
+            src="https://www.clocklink.com/html5embed.php?clock=046&timezone=ACST&color=blue&size=256&Title=&Message=&Target=&From=2021,1,1,0,0,0&Color=blue"
+          ></iframe>
+        </td>
 
-      <div class="footer">
-        Bản quyền © Công Ty Hoa Tươi Long Xuyên - Email:
-        hoatuoilonxuyen@gmail.com
-      </div>
-    </div>
+        <!-- Cột giữa -->
+        <td width="56%">
+          <table border="1" width="100%">
+            <tr align="center">
+              <td colspan="2"><img src="images/hoa9.jpg" alt="" /></td>
+            </tr>
+            <tr align="center">
+              <td colspan="2"><b>Hoa Tươi Hôm Nay</b></td>
+            </tr>
+            <tr align="center">
+              <td><img src="images/hoa6.jpg" alt="Hoa Tulip" /></td>
+              <td><img src="images/hoa3.jpg" alt="Hoa Hồng" /></td>
+            </tr>
+            <tr align="center">
+              <td>Hoa Tulip</td>
+              <td>Hoa Hồng</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <hr
+                  style="
+                    border: none;
+                    height: 3px;
+                    background-color: blue;
+                    margin: 15px 4;
+                    width: 30%;
+                  "
+                />
+              </td>
+            </tr>
+            <tr align="center">
+              <td><img src="images/hoa2.jpg" alt="Hoa Ly" /></td>
+              <td><img src="images/hoa7.jpg" alt="Hoa Cúc" /></td>
+            </tr>
+            <tr align="center">
+              <td>Hoa Ly</td>
+              <td>Hoa Cúc</td>
+            </tr>
+          </table>
+        </td>
+
+        <!-- Cột phải -->
+        <td width="22%" align="center" bgcolor="#FFFFCC">
+          <img src="images/hoa8.jpg" alt="">
+        </td>
+      </tr>
+      <tr height="50" bgcolor="#66a3ff">
+        <td align="center" colspan="3">
+          Bản quyền &copy Công Ty Hoa Tươi Long Xuyên - Email:
+          <a href="mailto:hoatuoilonxuyen@gmail.com"
+            >hoatuoilonxuyen@gmail.com</a
+          >
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
