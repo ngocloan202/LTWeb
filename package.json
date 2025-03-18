@@ -1,0 +1,15 @@
+{
+    "name": "ltweb",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Loan Chau",
+    "license": "ISC",
+    "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-uglify": "^5.0.0"
+  }
+  }
