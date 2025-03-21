@@ -1,0 +1,31 @@
+body {
+  font-family: "Times New Roman";
+  font-size: 20px;
+  font-weight: bold;
+}
+div {
+  border: thin solid #ff00ff;
+  border-radius: 8px;
+  width: 500px;
+  padding: 5px;
+  margin: auto;
+}
+img {
+  width: 400px;
+}
+span.tieude1 {
+  font-family: "Brush Script MT";
+  font-size: 40px;
+  color: blue;
+  text-shadow: 2px 2px #ff00ff;
+}
+span.tieude2{
+    font-size: 40px;
+    color: red;
+}
+span.noidung1{
+    color: #4169e1;
+}
+span.noidung2{
+    color: #ff8c00;
+}
