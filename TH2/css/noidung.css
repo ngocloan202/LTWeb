@@ -85,9 +85,7 @@ h3{
 }
 #hoa3{
     float: right;
-    border: 1px solid #ccc;
-    justify-content: center;
-
+    margin-top: 5px;
 }
 .tenhoa{
     text-align: center;
